@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: cornflowerblue;
+  height: 56px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.subnav .dangnhap:hover a {
+  opacity: 0.5;
+}
+.header li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 0px;
+}
+.header li:hover a {
+  color: #ffff;
+}
+.dropdown {
+  padding-top: 5px;
+  height: 46px;
+}
+.dropdown:hover button {
+  color: #ffff;
+}
+.dropdown li a {
+  padding-left: 25px;
+}
+.dropdown li:hover a {
+  color: black;
+}
+.subnav {
+}
+
+.header li {
+  list-style-type: none;
+  line-height: 46px;
+  font-size: 17px;
+}
+.header .logo {
+  font-size: 24px;
+  line-height: 46px;
+}
+.slider {
+  margin-top: 56px;
+  position: relative;
+  background-color: cornflowerblue;
+  height: 685px;
+  width: 100%;
+}
+.dan h4:hover #a1 {
+  color: #ffff !important;
+}
