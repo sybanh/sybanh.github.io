@@ -56,6 +56,9 @@
   height: 685px;
   width: 100%;
 }
-.dan h4:hover #a1 {
+#a1:hover {
+  color: #ffff !important;
+}
+#a2:hover {
   color: #ffff !important;
 }

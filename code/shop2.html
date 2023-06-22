@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/code/shop.css" />
+  </head>
+  <body style="overflow-x: hidden">
+    <div class="main">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex d-lg-none">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Trang Chủ / Cửa Hàng</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="/index.html"
+                  >Trang Chủ</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cửa Hàng</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="header d-none d-lg-block">
+        <div class="container pt-2">
+          <div class="row">
+            <div class="col-sm-2">
+              <li>
+                <h5
+                  style="
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                      sans-serif;
+                  "
+                  class="logo"
+                >
+                  BOOK STORE
+                </h5>
+              </li>
+            </div>
+            <div class="col-sm-1">
+              <li>
+                <a
+                  style="
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                      sans-serif;
+                  "
+                  href="/index.html"
+                  >Trang chủ</a
+                >
+              </li>
+            </div>
+            <div class="col-sm-1">
+              <li>
+                <a
+                  style="
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                      sans-serif;
+                  "
+                  href="/code/introduce.html"
+                  >Giới thiệu</a
+                >
+              </li>
+            </div>
+            <div class="col-sm-1">
+              <li>
+                <a
+                  style="
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                      sans-serif;
+                  "
+                  href="/code/shop.html"
+                  >Cửa hàng</a
+                >
+              </li>
+            </div>
+            <div class="col-sm-1">
+              <li>
+                <a
+                  style="
+                    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
+                      sans-serif;
+                  "
+                  href="/code/contact.html"
+                  >Liên hệ</a
+                >
+              </li>
+            </div>
+            <div class="col-sm-2">
+              <div class="dropdown">
+                <button
+                  type="button"
+                  class="btn dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                >
+                  <i class="fa-solid fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a
+                      style="
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+                          Arial, sans-serif;
+                      "
+                      class="dropdown-item"
+                      href="#"
+                      >Hỗ trợ</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+                          Arial, sans-serif;
+                      "
+                      class="dropdown-item"
+                      href="#"
+                      >Đánh giá</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      style="
+                        font-family: 'Franklin Gothic Medium', 'Arial Narrow',
+                          Arial, sans-serif;
+                      "
+                      class="dropdown-item"
+                      href="#"
+                      >Báo cáo</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div style="display: flex" class="subnav col-sm-4">
+              <div
+                class="dangnhap"
+                style="
+                  height: 40px;
+                  line-height: 46px;
+                  background-color: cornflowerblue;
+                  width: 40px;
+                  padding-left: 11px;
+                  border-radius: 50%;
+                  border: 2px solid #ffff;
+                "
+              >
+                <a href="/code/dkdn.html"
+                  ><i style="color: #ffff" class="fa-solid fa-user"></i
+                ></a>
+              </div>
+              <div
+                class="dangnhap"
+                style="
+                  height: 40px;
+                  line-height: 46px;
+                  background-color: cornflowerblue;
+                  width: 40px;
+                  padding-left: 9px;
+                  margin-left: 15px;
+                  margin-right: 25px;
+                  border-radius: 50%;
+                  border: 2px solid #ffff;
+                "
+              >
+                <a href="/code/giohang.html"
+                  ><i
+                    style="line-height: 46px; color: #ffff"
+                    class="fa-solid fa-cart-shopping"
+                  ></i
+                ></a>
+              </div>
+              <div>
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="text"
+                    placeholder="Search"
+                  />
+                  <button class="btn btn-primary" type="button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="container-fluid">
+          <div class="row">
+            <div
+              style="
+                margin-top: 56px;
+                position: relative;
+                height: 150px;
+                background-color: cornflowerblue;
+              "
+            >
+              <h1 style="text-align: center; line-height: 150px">Cửa hàng</h1>
+            </div>
+            <div
+              style="
+                position: absolute;
+                z-index: 1;
+                top: 56px;
+                margin-left: 90px;
+              "
+              class="dan"
+            >
+              <h4>
+                <a
+                  id="a1"
+                  style="text-decoration: none; color: black"
+                  href="/index.html"
+                  >Trang chủ </a
+                >/
+                <a
+                  id="a2"
+                  style="text-decoration: none; color: black"
+                  href="/code/shop.html"
+                  >Cửa hàng</a
+                >
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="list container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div style="margin-top: 20px"><h4>Danh Mục Sản Phẩm</h4></div>
+
+              <div
+                class="sublist"
+                style="
+                  border-left: 1px solid #000;
+                  border-bottom: 1px solid #000;
+                "
+              >
+                <p id="p1" style="border-bottom: 1px solid #000; padding: 10px">
+                  <a
+                    style="text-decoration: none; color: black"
+                    href="/code/shop.html"
+                    >SÁCH BÁN CHẠY NHẤT</a
+                  >
+                </p>
+                <p
+                  id="p1"
+                  style="
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 10px;
+                    padding-left: 10px;
+                  "
+                >
+                  <a
+                    style="text-decoration: none; color: black"
+                    href="/code/shop1.html"
+                    >SÁCH LỊCH SỬ</a
+                  >
+                </p>
+                <p
+                  id="p1"
+                  style="
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 10px;
+                    padding-left: 10px;
+                  "
+                >
+                  <a
+                    style="text-decoration: none; color: black"
+                    href="/code/shop2.html"
+                    >SÁCH TÌNH YÊU</a
+                  >
+                </p>
+                <p
+                  id="p1"
+                  style="
+                    border-bottom: 1px solid #000;
+                    padding-bottom: 10px;
+                    padding-left: 10px;
+                  "
+                >
+                  <a
+                    style="text-decoration: none; color: black"
+                    href="/code/shop3.html"
+                    >SÁCH TRẺ EM</a
+                  >
+                </p>
+                <p id="p1" style="padding-left: 10px">
+                  <a
+                    style="text-decoration: none; color: black"
+                    href="/code/shop4.html"
+                    >SÁCH CỔ ĐIỂN</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-sm-9">
+              <div style="margin-top: 20px" class="container-fluid">
+                <h3 style="border-bottom: 5px solid black; padding: 20px">
+                  <b>Sách tình yêu </b>
+                </h3>
+                <div style="margin-top: 30px" class="row">
+                  <div style="margin-right: 80px" class="col-sm-2">
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">8$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/c8279373429744c22883aef30767e4cc--sách-hay-search.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bên Nhau Trọn...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="/code/tydon.html" class="btn btn-primary"
+                            >Buy now</a
+                          >
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-right: 80px" class="col-sm-2">
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">9$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/image-20201028143521-3.jpeg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Từ Một Phía ...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="/code/tydon1.html" class="btn btn-primary"
+                            >Buy now</a
+                          >
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-right: 80px" class="col-sm-2">
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">7$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/image_195509_1_7088.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Tình Yêu Gia ...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="/code/tydon2.html" class="btn btn-primary"
+                            >Buy now</a
+                          >
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-right: 80px" class="col-sm-2">
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">9$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/image_195509_1_19349.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Tình Yêu Và ...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="/code/tydon3.html" class="btn btn-primary"
+                            >Buy now</a
+                          >
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">7$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/img_0003-2.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <div style="margin-top: 20px">
+                            <h5 class="card-title">Khi Nhìn Lên ...</h5>
+                            <div style="margin-bottom: 10px; color: gold">
+                              <i class="fa-solid fa-star fa-xs"></i>
+                              <i class="fa-solid fa-star fa-xs"></i>
+                              <i class="fa-solid fa-star fa-xs"></i>
+                              <i class="fa-solid fa-star fa-xs"></i>
+                              <i class="fa-solid fa-star fa-xs"></i>
+                            </div>
+                          </div>
+                          <a href="/code/tydon4.html" class="btn btn-primary"
+                            >Buy now</a
+                          >
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">8$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/tinh-yeu-hon-nhan-va-gia-dinh-716x1024.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Tình Yêu Hôn...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">10$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/neu-gap-nguoi-ay-cho-toi-gui-loi-chao-ichikawa-takuji-377339.jpg"
+                          alt="Card image"
+                          style="width: 100%; min-height: 170px"
+                        />
+                        <div class="card-body">
+                          <div>
+                            <h5 class="card-title">Nếu Gặp Người ...</h5>
+                            <div style="margin-bottom: 10px; color: gold">
+                              <i class="fa-solid fa-star fa-xs"></i>
+                              <i class="fa-solid fa-star fa-xs"></i>
+                              <i class="fa-solid fa-star fa-xs"></i>
+                              <i class="fa-solid fa-star fa-xs"></i>
+                              <i class="fa-solid fa-star fa-xs"></i>
+                            </div>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">7$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/nhung-cuon-sach-hay-ve-tinh-yeu-1.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Sao Tình Đầu...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">9$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/review-Ve-Dep-Cua-Yeu-Tinh-1024x1024.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Vẻ Đẹp Của ...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">7$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/sau-loi-the-uoc-nau.jpg"
+                          alt="Card image"
+                          style="width: 100%; min-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Sau Lời Thề Ước</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a
+                            style="margin-top: 1px"
+                            href="#"
+                            class="btn btn-primary"
+                            >Buy now</a
+                          >
+                          <div style="float: right; margin-top: 1px">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">9$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/sach-hay-ve-tinh-yeu-hon-nhan-1.12.jpg"
+                          alt="Card image"
+                          style="width: 100%; min-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Tình Yêu Ấy...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">7$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/th (3).jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Tình Yêu Thời ...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">10$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/2b8422a9e909e91bc396a4679eacf511.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Tình Yêu Hạnh ...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">9$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/image_62381.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Bí Quyết Đơn...</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">7$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/nghe-thuat-yeu-outline-4.6.2020-01_thanh_ly.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Nghệ Thuật Yêu</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    style="margin-right: 80px; margin-top: 30px"
+                    class="col-sm-2"
+                  >
+                    <div>
+                      <div
+                        class="card"
+                        style="width: 200px; height: 300px; position: relative"
+                      >
+                        <div
+                          style="
+                            background-color: dodgerblue;
+                            width: 50px;
+                            border-radius: 2px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                          "
+                        >
+                          <h4 style="text-align: center; color: #ffff">7$</h4>
+                        </div>
+                        <img
+                          class="card-img-top"
+                          src="/image/Yeu-_-Osho.jpg"
+                          alt="Card image"
+                          style="width: 100%; max-height: 170px"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">Yêu</h5>
+                          <div style="margin-bottom: 10px; color: gold">
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                            <i class="fa-solid fa-star fa-xs"></i>
+                          </div>
+                          <a href="#" class="btn btn-primary">Buy now</a>
+                          <div style="float: right">
+                            <a href="">
+                              <button
+                                style="height: 40px; float: right"
+                                type="button"
+                                class="btn btn-primary"
+                              >
+                                <i
+                                  style="line-height: 40px; color: #ffff"
+                                  class="fa-solid fa-cart-shopping"
+                                ></i>
+                              </button>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div
+          style="
+            height: 300px;
+            margin-top: 50px;
+            background-color: cornflowerblue;
+          "
+          class="container-fluid"
+        >
+          <div class="row">
+            <div style="margin-top: 30px; margin-left: 20px" class="col-sm-4">
+              <h2 style="text-align: left">Book Store</h2>
+              <h5>
+                Không còn phải lo lắng về việc mua sắm, hãy để sản phẩm của
+                chúng tôi giúp bạn cảm thấy tự tin.
+              </h5>
+              <h3>Follow us</h3>
+              <div>
+                <button type="button" class="btn btn-outline-primary">
+                  <i class="fa-brands fa-facebook fa-2xl"></i>
+                </button>
+                <button type="button" class="btn btn-outline-primary">
+                  <i class="fa-brands fa-instagram fa-2xl"></i>
+                </button>
+                <button type="button" class="btn btn-outline-primary">
+                  <i class="fa-brands fa-tiktok fa-2xl"></i>
+                </button>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <h4
+                style="
+                  text-align: center;
+                  padding-right: 10px;
+                  color: #333;
+                  margin-top: 30px;
+                "
+              >
+                Project
+              </h4>
+              <div>
+                <h5 style="margin-left: 130px">
+                  <a style="text-decoration: none; color: black" href=""
+                    >Uppdate Book</a
+                  >
+                </h5>
+              </div>
+              <div>
+                <h5 style="margin-left: 130px">
+                  <a style="text-decoration: none; color: black" href=""
+                    >Changelog</a
+                  >
+                </h5>
+              </div>
+              <div>
+                <h5 style="margin-left: 130px">
+                  <a style="text-decoration: none; color: black" href=""
+                    >Commission Book</a
+                  >
+                </h5>
+              </div>
+              <div>
+                <h5 style="margin-left: 130px">
+                  <a style="text-decoration: none; color: black" href=""
+                    >All Versions</a
+                  >
+                </h5>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <h4 style="padding-right: 10px; color: #333; margin-top: 30px">
+                Contact
+              </h4>
+              <div style="display: flex">
+                <div style="padding-right: 10px">
+                  <i class="fa-solid fa-house fa-xl"></i>
+                </div>
+                <div>
+                  <h5>
+                    <a style="text-decoration: none; color: black" href=""
+                      >Hòa Quý Ngũ Hành Sơn Thành Phố Đà Nẵng.</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div style="display: flex">
+                <div style="padding-top: 0px; padding-right: 10px">
+                  <i class="fa-solid fa-phone fa-xl"></i>
+                </div>
+                <div>
+                  <h5>
+                    <a style="text-decoration: none; color: black" href=""
+                      >0354806808</a
+                    >
+                  </h5>
+                </div>
+              </div>
+              <div style="display: flex">
+                <div style="padding-top: 0px; padding-right: 10px">
+                  <i class="fa-solid fa-envelope fa-xl"></i>
+                </div>
+                <div>
+                  <h5>
+                    <a style="text-decoration: none; color: black" href=""
+                      >synn.22it@vku.udn.vn</a
+                    >
+                  </h5>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <h4 style="padding-right: 10px; color: #333; margin-top: 30px">
+                Help
+              </h4>
+              <div>
+                <h5>
+                  <a style="text-decoration: none; color: black" href=""
+                    >Support</a
+                  >
+                </h5>
+              </div>
+              <div>
+                <h5>
+                  <a style="text-decoration: none; color: black" href=""
+                    >Contact Us</a
+                  >
+                </h5>
+              </div>
+              <div>
+                <h5>
+                  <a style="text-decoration: none; color: black" href=""
+                    >Troubleshooting</a
+                  >
+                </h5>
+              </div>
+              <div>
+                <h5>
+                  <a style="text-decoration: none; color: black" href=""
+                    >Status</a
+                  >
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -15,12 +15,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="./main.css" />
   </head>
-  <body>
+  <body style="overflow-x: hidden">
     <div class="main">
       <div class="header">
         <div class="container pt-2">
           <div class="row">
-            <div class="col-sm-2">
+            <div class="col-sm-2 md-4 lg-3">
               <li>
                 <h5
                   style="
@@ -33,7 +33,7 @@
                 </h5>
               </li>
             </div>
-            <div class="col-sm-1">
+            <div style="width: 100px" class="col-sm-1 md-4">
               <li>
                 <a
                   style="
@@ -45,43 +45,43 @@
                 >
               </li>
             </div>
-            <div class="col-sm-1">
+            <div style="width: 100px" class="col-sm-1 md-4">
               <li>
                 <a
                   style="
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
                       sans-serif;
                   "
-                  href="http://127.0.0.1:5500/code/introduce.html"
+                  href="/code/introduce.html"
                   >Giới thiệu</a
                 >
               </li>
             </div>
-            <div class="col-sm-1">
+            <div style="width: 100px" class="col-sm-1 md-3">
               <li>
                 <a
                   style="
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
                       sans-serif;
                   "
-                  href=""
+                  href="/code/shop.html"
                   >Cửa hàng</a
                 >
               </li>
             </div>
-            <div class="col-sm-1">
+            <div style="width: 100px" class="col-sm-1 md-3">
               <li>
                 <a
                   style="
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,
                       sans-serif;
                   "
-                  href="http://127.0.0.1:5500/code/contact.html"
+                  href="/code/contact.html"
                   >Liên hệ</a
                 >
               </li>
             </div>
-            <div class="col-sm-2">
+            <div class="col-sm-2 md-4 lg-3">
               <div class="dropdown">
                 <button
                   type="button"
@@ -127,7 +127,7 @@
                 </ul>
               </div>
             </div>
-            <div style="display: flex" class="subnav col-sm-4">
+            <div style="display: flex" class="subnav col-sm-4 lg-3">
               <div
                 class="dangnhap"
                 style="
@@ -140,7 +140,7 @@
                   border: 2px solid #ffff;
                 "
               >
-                <a href=""
+                <a href="/code/dkdn.html"
                   ><i style="color: #ffff" class="fa-solid fa-user"></i
                 ></a>
               </div>
@@ -158,7 +158,7 @@
                   border: 2px solid #ffff;
                 "
               >
-                <a href=""
+                <a href="/code/giohang.html"
                   ><i
                     style="line-height: 46px; color: #ffff"
                     class="fa-solid fa-cart-shopping"
@@ -204,18 +204,20 @@
                   >
                 </h4>
 
-                <button
-                  style="
-                    font-size: 20px;
-                    margin-top: 40px;
-                    margin-left: 150px;
-                    border-radius: 5px;
-                  "
-                  type="button"
-                  class="btn btn-outline-primary"
-                >
-                  <b>MUA NGAY</b>
-                </button>
+                <a href="#point1">
+                  <button
+                    style="
+                      font-size: 20px;
+                      margin-top: 40px;
+                      margin-left: 150px;
+                      border-radius: 5px;
+                    "
+                    type="button"
+                    class="btn btn-outline-primary"
+                  >
+                    <b>MUA NGAY</b>
+                  </button>
+                </a>
               </div>
               <div style="position: relative">
                 <img
@@ -231,7 +233,7 @@
       <div class="content mt-4">
         <div class="container">
           <div class="row">
-            <div class="col-sm-4">
+            <div class="col-sm-4 md-6">
               <div style="margin-left: 20px; margin-top: 100px">
                 <div style="text-align: center; font-size: 30px; padding: 20px">
                   <i class="fa-solid fa-layer-group fa-2xl"></i>
@@ -249,7 +251,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 md-6">
               <div style="margin-left: 20px; margin-top: 100px">
                 <div style="text-align: center; font-size: 30px; padding: 20px">
                   <i class="fa-solid fa-users-rectangle fa-2xl"></i>
@@ -267,7 +269,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 md-6">
               <div style="margin-left: 20px; margin-top: 100px">
                 <div style="text-align: center; font-size: 30px; padding: 20px">
                   <i class="fa-solid fa-circle-exclamation fa-2xl"></i>
@@ -293,16 +295,19 @@
               style="
                 background-color: cornflowerblue;
                 border-radius: 8px;
-                height: 120px;
+                max-height: 120px;
                 display: flex;
                 margin-left: 140px;
               "
-              class="congdung1 col-sm-2"
+              class="buoc col-sm-2 md-6"
             >
               <div style="font-size: 50px; line-height: 120px">
                 <i class="fa-solid fa-book"></i>
               </div>
-              <div style="text-align: center; width: 100%; margin-top: 30px">
+              <div
+                id="point1"
+                style="text-align: center; width: 100%; margin-top: 30px"
+              >
                 <h5>Cửa hàng sách trực tuyến</h5>
               </div>
             </div>
@@ -314,7 +319,7 @@
                 display: flex;
                 margin-left: 70px;
               "
-              class="congdung2 col-sm-2"
+              class="buoc col-sm-2 md-6"
             >
               <div style="font-size: 50px; line-height: 120px">
                 <i class="fa-solid fa-square-check"></i>
@@ -331,12 +336,19 @@
                 display: flex;
                 margin-left: 70px;
               "
-              class="congdung3 col-sm-2"
+              class="buoc col-sm-2 md-6"
             >
               <div style="font-size: 50px; line-height: 120px">
                 <i class="fa-solid fa-thumbs-up"></i>
               </div>
-              <div style="text-align: center; width: 100%; margin-top: 30px">
+              <div
+                style="
+                  text-align: center;
+                  width: 100%;
+                  margin-top: 30px;
+                  height: 100px;
+                "
+              >
                 <h5>Trải nghiệm khám phá cửa hàng sách</h5>
               </div>
             </div>
@@ -348,7 +360,7 @@
                 display: flex;
                 margin-left: 70px;
               "
-              class="congdung4 col-sm-2"
+              class="buoc col-sm-2 md-6"
             >
               <div style="font-size: 50px; line-height: 120px">
                 <i class="fa-solid fa-business-time"></i>
@@ -359,7 +371,14 @@
             </div>
           </div>
         </div>
-        <div style="margin-top: 50px" class="container">
+        <div
+          style="
+            margin-top: 50px;
+            border-radius: 5px;
+            border: 1px solid cornflowerblue;
+          "
+          class="container"
+        >
           <h3 style="border-bottom: 5px solid black; padding: 20px">
             <b>Top những cuốn sách bán chạy </b
             ><i class="fa-solid fa-paper-plane"></i>
@@ -398,9 +417,11 @@
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="/code/don4.html" class="btn btn-primary"
+                      >Buy now</a
+                    >
                     <div style="float: right">
-                      <a href="">
+                      <a href="/code/giohang.html">
                         <button
                           style="height: 40px; float: right"
                           type="button"
@@ -450,9 +471,9 @@
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="/code/don.html" class="btn btn-primary">Buy now</a>
                     <div style="float: right">
-                      <a href="">
+                      <a href="/code/giohang.html">
                         <button
                           style="height: 40px; float: right"
                           type="button"
@@ -489,12 +510,12 @@
                   </div>
                   <img
                     class="card-img-top"
-                    src="/image/cd22.jpeg"
+                    src="/image/cd11.jpg"
                     alt="Card image"
                     style="width: 100%; max-height: 170px"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Đắc Nhân Tâm</h5>
+                    <h5 class="card-title">Tấm Cám</h5>
                     <div style="margin-bottom: 10px; color: gold">
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
@@ -502,9 +523,11 @@
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="/code/don2.html" class="btn btn-primary"
+                      >Buy now</a
+                    >
                     <div style="float: right">
-                      <a href="">
+                      <a href="/code/giohang.html">
                         <button
                           style="height: 40px; float: right"
                           type="button"
@@ -541,12 +564,12 @@
                   </div>
                   <img
                     class="card-img-top"
-                    src="/image/cd10.jpg"
+                    src="/image/cd4.jpg"
                     alt="Card image"
                     style="width: 100%; min-height: 170px"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Tấm Lòng Cao Cả</h5>
+                    <h5 class="card-title">Lang Biang</h5>
                     <div style="margin-bottom: 10px; color: gold">
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
@@ -554,9 +577,11 @@
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="/code/don3.html" class="btn btn-primary"
+                      >Buy now</a
+                    >
                     <div style="float: right">
-                      <a href="">
+                      <a href="/code/giohang.html">
                         <button
                           style="height: 40px; float: right"
                           type="button"
@@ -678,6 +703,13 @@
               </div>
             </div>
           </div>
+          <div style="text-align: center; padding: 20px">
+            <a href="/code/shop.html"
+              ><button type="button" class="btn btn-outline-primary">
+                Xem Thêm
+              </button></a
+            >
+          </div>
         </div>
         <div
           style="
@@ -757,12 +789,12 @@
                   </div>
                   <img
                     class="card-img-top"
-                    src="/image/ls1.jpg"
+                    src="/image/cd3.jpg"
                     alt="Card image"
                     style="width: 100%; max-height: 170px"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Lịch Sử Việt Nam</h5>
+                    <h5 class="card-title">Từ Điển Hán-Việt</h5>
                     <div style="margin-bottom: 10px; color: gold">
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
@@ -770,9 +802,11 @@
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="/code/don1.html" class="btn btn-primary"
+                      >Buy now</a
+                    >
                     <div style="float: right">
-                      <a href="">
+                      <a href="/code/giohang.html">
                         <button
                           style="height: 40px; float: right"
                           type="button"
@@ -1051,13 +1085,11 @@
             </div>
           </div>
           <div style="text-align: center; padding: 20px">
-            <button type="button" class="btn btn-outline-primary">
-              <a
-                style="text-decoration: none"
-                href="http://127.0.0.1:5500/code/shop.html"
-                >Xem thêm</a
-              >
-            </button>
+            <a href="/code/shop1.html"
+              ><button type="button" class="btn btn-outline-primary">
+                Xem Thêm
+              </button></a
+            >
           </div>
         </div>
         <div
@@ -1092,12 +1124,12 @@
                   </div>
                   <img
                     class="card-img-top"
-                    src="/image/ty1.jpg"
+                    src="/image/c8279373429744c22883aef30767e4cc--sách-hay-search.jpg"
                     alt="Card image"
                     style="width: 100%; max-height: 170px"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Tình Yêu Hôn...</h5>
+                    <h5 class="card-title">Bên Nhau Trọn...</h5>
                     <div style="margin-bottom: 10px; color: gold">
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
@@ -1105,9 +1137,11 @@
                       <i class="fa-solid fa-star fa-xs"></i>
                       <i class="fa-solid fa-star fa-xs"></i>
                     </div>
-                    <a href="#" class="btn btn-primary">Buy now</a>
+                    <a href="/code/tydon.html" class="btn btn-primary"
+                      >Buy now</a
+                    >
                     <div style="float: right">
-                      <a href="">
+                      <a href="/code/giohang.html">
                         <button
                           style="height: 40px; float: right"
                           type="button"
@@ -1386,13 +1420,11 @@
             </div>
           </div>
           <div style="text-align: center; padding: 20px">
-            <button type="button" class="btn btn-outline-primary">
-              <a
-                style="text-decoration: none"
-                href="http://127.0.0.1:5500/code/shop.html"
-                >Xem thêm</a
-              >
-            </button>
+            <a href="/code/shop2.html"
+              ><button type="button" class="btn btn-outline-primary">
+                Xem Thêm
+              </button></a
+            >
           </div>
         </div>
         <div
@@ -1721,13 +1753,11 @@
             </div>
           </div>
           <div style="text-align: center; padding: 20px">
-            <button type="button" class="btn btn-outline-primary">
-              <a
-                style="text-decoration: none"
-                href="http://127.0.0.1:5500/code/shop.html"
-                >Xem thêm</a
-              >
-            </button>
+            <a href="/code/shop3.html"
+              ><button type="button" class="btn btn-outline-primary">
+                Xem Thêm
+              </button></a
+            >
           </div>
         </div>
         <div
@@ -2056,13 +2086,11 @@
             </div>
           </div>
           <div style="text-align: center; padding: 20px">
-            <button type="button" class="btn btn-outline-primary">
-              <a
-                style="text-decoration: none"
-                href="http://127.0.0.1:5500/code/shop.html"
-                >Xem thêm</a
-              >
-            </button>
+            <a href="/code/shop4.html"
+              ><button type="button" class="btn btn-outline-primary">
+                Xem Thêm
+              </button></a
+            >
           </div>
         </div>
         <div
@@ -2400,6 +2428,7 @@
             </div>
             <div class="col-sm-3">
               <h4
+                class="chan"
                 style="
                   text-align: center;
                   padding-right: 10px;
@@ -2409,28 +2438,28 @@
               >
                 Project
               </h4>
-              <div>
+              <div class="chann">
                 <h5 style="margin-left: 130px">
                   <a style="text-decoration: none; color: black" href=""
                     >Uppdate Book</a
                   >
                 </h5>
               </div>
-              <div>
+              <div class="chann">
                 <h5 style="margin-left: 130px">
                   <a style="text-decoration: none; color: black" href=""
                     >Changelog</a
                   >
                 </h5>
               </div>
-              <div>
+              <div class="chann">
                 <h5 style="margin-left: 130px">
                   <a style="text-decoration: none; color: black" href=""
                     >Commission Book</a
                   >
                 </h5>
               </div>
-              <div>
+              <div class="chann">
                 <h5 style="margin-left: 130px">
                   <a style="text-decoration: none; color: black" href=""
                     >All Versions</a
@@ -2483,28 +2512,28 @@
               <h4 style="padding-right: 10px; color: #333; margin-top: 30px">
                 Help
               </h4>
-              <div>
+              <div class="chann">
                 <h5>
                   <a style="text-decoration: none; color: black" href=""
                     >Support</a
                   >
                 </h5>
               </div>
-              <div>
+              <div class="chann">
                 <h5>
                   <a style="text-decoration: none; color: black" href=""
                     >Contact Us</a
                   >
                 </h5>
               </div>
-              <div>
+              <div class="chann">
                 <h5>
                   <a style="text-decoration: none; color: black" href=""
                     >Troubleshooting</a
                   >
                 </h5>
               </div>
-              <div>
+              <div class="chann">
                 <h5>
                   <a style="text-decoration: none; color: black" href=""
                     >Status</a

@@ -11,10 +11,14 @@
   top: 0;
   right: 0;
   left: 0;
-  z-index: 1;
+  z-index: 2;
 }
+
 .subnav .dangnhap:hover a {
   opacity: 0.5;
+}
+.subnav .dangnhap:hover i {
+  color: blue !important;
 }
 .header li a {
   text-decoration: none;
@@ -52,10 +56,12 @@
 .slider {
   margin-top: 56px;
   position: relative;
-  background-color: cornflowerblue;
   height: 685px;
   width: 100%;
 }
-.dan h4:hover #a1 {
+#a1:hover {
+  color: #ffff !important;
+}
+#a2:hover {
   color: #ffff !important;
 }

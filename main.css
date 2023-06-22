@@ -13,8 +13,12 @@
   left: 0;
   z-index: 2;
 }
+
 .subnav .dangnhap:hover a {
   opacity: 0.5;
+}
+.subnav .dangnhap:hover i {
+  color: blue !important;
 }
 .header li a {
   text-decoration: none;
@@ -54,4 +58,14 @@
   position: relative;
   height: 685px;
   width: 100%;
+}
+.chann:hover a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #ffff;
+}
+.buoc:hover div {
+  color: #ffff;
+}
+.buoc:hover i {
+  color: #ffff;
 }
